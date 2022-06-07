@@ -52,7 +52,7 @@ We can supply the below values to the login form (leave the `password` field bla
 
 ![login form 1](login-1.png)
 
-But initially, I use `administrator' or '=` instead, but it yields the same behavior anyway.
+During the event, initially, I used `administrator' or '=` instead, but it yields the same behavior anyway.
 
 The first part of the flag is `VHC2022{m3_c4N_SqLi_`.
 
@@ -90,7 +90,9 @@ There is a `the_secret_user` in the `the_secret_table` table. How can we bring i
 
 We can use a UNION query!
 
-`' UNION SELECT the_secret_user FROM the_secret_table #`
+```sql
+' UNION SELECT the_secret_user FROM the_secret_table #
+```
 
 Type this in the `username` field, and voilà!
 
