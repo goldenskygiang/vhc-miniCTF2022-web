@@ -126,7 +126,7 @@ We have actually uploaded a PHP file instead of a JPEG one. The problem is that 
 
 If the server also checks for file extension, the challenge will become much more difficult and we may need to find any misconfiguration of the server to run PHP code in JPG file.
 
-You can search for this keyword: `inject PHP into jpg`. I have uploaded my file [here](payload.png.php). You can refer to it.
+You can search for this keyword: `inject PHP into jpg`. I have uploaded my file [here](payload.jpg.php). You can refer to it.
 
 ## The Flag
 ```
