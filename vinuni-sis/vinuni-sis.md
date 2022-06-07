@@ -105,3 +105,5 @@ The second part of the flag is `m3_4_r34L_h4ck3r!}`.
 ```
 VHC2022{m3_c4N_SqLi_m3_4_r34L_h4ck3r!}
 ```
+
+Anyway, don't try to hack into [VinUni Student Information System (SIS)](https://sis.vinuni.edu.vn) for real unless you want a Level 4 Code of Conduct violation.
