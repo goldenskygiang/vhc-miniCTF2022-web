@@ -6,7 +6,7 @@ Challenge URL: http://ctflag.vhc.asia:13373/
 
 ## Techniques
 
-PHP, JavaScript, file signature, client validation
+PHP, JavaScript, file signature, client-side validation
 
 ## Solution
 
