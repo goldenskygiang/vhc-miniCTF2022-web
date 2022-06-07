@@ -40,4 +40,6 @@ And below is the image of the flag!
 
 ## The Flag
 
- `VHC2022{n0w_U_kN0w_wHy_1+1=11_1N_JS}`
+ ```
+ VHC2022{n0w_U_kN0w_wHy_1+1=11_1N_JS}
+ ```

@@ -89,4 +89,6 @@ Some things to note: before obtaining the IP `127.0.0.1`, the cookie part goes t
 
 ## The Flag
 
-`VHC2022{y0ur_c00k13_1s_t00_d1rty_w3_c4n't_f1lt3r_1t}`
+```
+VHC2022{y0ur_c00k13_1s_t00_d1rty_w3_c4n't_f1lt3r_1t}
+```
