@@ -8,7 +8,7 @@ Challenge URL: http://ctflag.vhc.asia:12215/
 
 ## Techniques
 
-PHP + SQL Injection
+PHP, SQL Injection
 
 ## Solution
 

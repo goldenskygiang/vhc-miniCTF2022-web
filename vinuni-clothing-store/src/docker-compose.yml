@@ -1,0 +1,33 @@
+version: "3.6"
+services:
+    shop-db:
+        build: shop-db
+        command: --default-authentication-plugin=mysql_native_password
+        restart: unless-stopped
+        expose:
+            - 3306
+        environment:
+            - MYSQL_ROOT_PASSWORD=fakePassword
+            - MYSQL_DATABASE=myDB
+            - MYSQL_USER=shop-cuties-1
+            - MYSQL_PASSWORD=fakePassword
+
+    shop:
+        build: shop
+        restart: unless-stopped
+        ports:
+            - 32181:80
+        environment:
+            - MYSQL_HOSTNAME=shop-db
+            - MYSQL_ROOT_PASSWORD=fakePassword
+            - MYSQL_DATABASE=myDB
+            - MYSQL_USER=fakeUser
+            - MYSQL_PASSWORD=fakePassword
+            - FLAG=VHC2022{thisIsTheFakeFlag!}
+    
+    shop-api:
+        build: shop-api        
+        ports:
+            - 32182:8080
+volumes:
+    shop-cuties-1:

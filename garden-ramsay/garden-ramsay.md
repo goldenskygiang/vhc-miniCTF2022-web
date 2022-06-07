@@ -6,7 +6,7 @@ Challenge URL: http://ctflag.vhc.asia:19024/
 
 ## Techniques
 
-F12 Dev Tools + JavaScript + Brute-force
+F12 Dev Tools, JavaScript, Brute-force
 
 ## Solution
 
